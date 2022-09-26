@@ -319,7 +319,9 @@
 -r:"C:/Program Files (x86)/2021.3.3f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files (x86)/2021.3.3f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files (x86)/2021.3.3f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+"Assets/Scripts/CameraMount.cs"
 "Assets/Scripts/CameraShake.cs"
+"Assets/Scripts/Gun.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Rotator.cs"
 -langversion:9.0

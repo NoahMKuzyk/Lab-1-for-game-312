@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4540874020207341818}
   - component: {fileID: 7639884911207302478}
   - component: {fileID: 5430685953277710522}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 7437720453973215104}
   - component: {fileID: 757534249558741515}
   - component: {fileID: 1957758959280783560}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6055849249386572832}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +208,8 @@ GameObject:
   - component: {fileID: 5013563100348212788}
   - component: {fileID: 5013563100357724628}
   - component: {fileID: -4571533827265969815}
-  m_Layer: 0
+  - component: {fileID: 6801213273495094089}
+  m_Layer: 12
   m_Name: BobbleArena-Column
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -268,6 +269,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.07, y: 5.25, z: 2}
   m_Center: {x: 0, y: 3, z: 0}
+--- !u!208 &6801213273495094089
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5013563100348381716}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.035, y: 2.135, z: 1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 2.3, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &5013563100348381718
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +296,7 @@ GameObject:
   - component: {fileID: 5013563100348212790}
   - component: {fileID: 5013563100351604246}
   - component: {fileID: 5013563100350637270}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,7 +377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6063157117881831012}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}

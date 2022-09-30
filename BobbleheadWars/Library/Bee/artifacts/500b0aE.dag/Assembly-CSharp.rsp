@@ -321,6 +321,7 @@
 -r:"C:/Program Files (x86)/2021.3.3f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 "Assets/Scripts/CameraMount.cs"
 "Assets/Scripts/CameraShake.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Projectile.cs"

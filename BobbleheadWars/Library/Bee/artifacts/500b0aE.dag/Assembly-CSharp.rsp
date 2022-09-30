@@ -323,6 +323,7 @@
 "Assets/Scripts/CameraShake.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/Projectile.cs"
 "Assets/Scripts/Rotator.cs"
 -langversion:9.0
 

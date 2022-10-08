@@ -17,18 +17,22 @@ public class Alien : MonoBehaviour
 
     }
 
+    void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+    }
+
     // Update is called once per frame
     void Update()
     {
+        
+
         navigationTime += Time.deltaTime;
         if (navigationTime > navigationUpdate)
         {
             agent.destination = target.position;
             navigationTime = 0;
         }
-        void OnTriggerEnter(Collider other)
-        {
-            Destroy(gameObject);
-        }
+        
     }
 }

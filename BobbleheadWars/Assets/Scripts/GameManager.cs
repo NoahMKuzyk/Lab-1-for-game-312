@@ -37,7 +37,6 @@ public class GameManager : MonoBehaviour
             if (aliensPerSpawn > 0 && aliensOnScreen < totalAliens)
             {
                 List<int> previousSpawnLocations = new List<int>();
-                Debug.Log(spawnPoints.Length);
                 if (aliensPerSpawn >= spawnPoints.Length)
                 {
                     aliensPerSpawn = spawnPoints.Length - 1;

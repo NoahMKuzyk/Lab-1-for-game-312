@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private CharacterController characterController;
     public LayerMask layerMask;
     private Vector3 currentLookTarget = Vector3.zero;
+    public Animator bodyAnimator;
 
     // Start is called before the first frame update
     void Start() {
@@ -29,10 +30,12 @@ public class PlayerController : MonoBehaviour
         characterController.SimpleMove(moveDirection * moveSpeed);
         if (moveDirection == Vector3.zero)
         {
+            bodyAnimator.SetBool("IsMoving", false);
             // TODO
         }
         else
-        { 
+        {
+            bodyAnimator.SetBool("IsMoving", true);
             head.AddForce(transform.right * 150, ForceMode.Acceleration);
         }
         RaycastHit hit;

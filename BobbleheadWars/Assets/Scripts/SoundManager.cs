@@ -37,6 +37,11 @@ public class SoundManager : MonoBehaviour
         }
     }
 
+    public void PlayOneShot(AudioClip clip)
+    {
+        soundEffectAudio.PlayOneShot(clip);
+    }
+
     // Update is called once per frame
     void Update()
     {

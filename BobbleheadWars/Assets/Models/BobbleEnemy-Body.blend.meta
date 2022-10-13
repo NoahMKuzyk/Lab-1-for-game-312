@@ -348,11 +348,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Scene
-      takeName: Scene
+      name: Default Take
+      takeName: Default Take
       internalID: 0
-      firstFrame: 1
-      lastFrame: 19
+      firstFrame: 0
+      lastFrame: 18
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

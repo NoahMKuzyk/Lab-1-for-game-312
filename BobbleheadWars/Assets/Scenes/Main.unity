@@ -503,7 +503,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 380687071}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79af7af9582733e4288b735fb38b61c7, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &380687075
@@ -734,26 +734,6 @@ Transform:
   m_Father: {fileID: 54432714}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &724821204 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5545477042616774485, guid: 7f78b096b427d419f9918e4ae4fc4aec,
-    type: 3}
-  m_PrefabInstance: {fileID: 1758815074}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &724821206
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724821204}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7749368989930414803, guid: 93576df0457ab4d6e83debcd94a50b3b, type: 3}
 --- !u!4 &780448291 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5013563100348212788, guid: a57b26761d8ba2843879837f2a9fac8e,
@@ -1742,7 +1722,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 180047043}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1717567868
 MonoBehaviour:

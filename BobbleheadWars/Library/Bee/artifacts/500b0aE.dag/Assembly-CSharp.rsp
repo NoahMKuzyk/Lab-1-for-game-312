@@ -328,6 +328,7 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Projectile.cs"
 "Assets/Scripts/Rotator.cs"
+"Assets/Scripts/SoundManager.cs"
 -langversion:9.0
 
 /deterministic

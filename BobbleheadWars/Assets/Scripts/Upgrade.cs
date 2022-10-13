@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class Upgrade : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Gun gun;
+    void OnTriggerEnter(Collider other)
     {
-        
+        gun.UpgradeGun();
+        Destroy(gameObject);
+        SoundManager.Instance.PlayOneShot(SoundManager.Instance.powerUpPickup);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

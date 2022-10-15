@@ -64,7 +64,6 @@ public class PlayerController : MonoBehaviour
             {
                 currentLookTarget = hit.point;
             }
-            Debug.Log("cock");
             // 1
             Vector3 targetPosition = new Vector3(hit.point.x,transform.position.y, hit.point.z);
             // 2
@@ -88,6 +87,7 @@ public class PlayerController : MonoBehaviour
                 {
                     cameraShake.intensity = hitForce[hitNumber];
                     cameraShake.Shake();
+                    Die();
                 }
                 else
                 {
@@ -98,6 +98,21 @@ public class PlayerController : MonoBehaviour
             }
             alien.Die();
         }
+    }
+
+    public void Die()
+    {
+        bodyAnimator.SetBool("IsMoving", false);
+        marineBody.transform.parent = null;
+        marineBody.isKinematic = false;
+        marineBody.useGravity = true;
+        marineBody.gameObject.GetComponent<CapsuleCollider>().enabled = true;
+        marineBody.gameObject.GetComponent<Gun>().enabled = false;
+        Destroy(head.gameObject.GetComponent<HingeJoint>());
+        head.transform.parent = null;
+        head.useGravity = true;
+        SoundManager.Instance.PlayOneShot(SoundManager.Instance.marineDeath);
+        Destroy(gameObject);
     }
 
 }

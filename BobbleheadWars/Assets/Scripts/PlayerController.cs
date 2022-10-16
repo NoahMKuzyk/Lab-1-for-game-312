@@ -20,9 +20,12 @@ public class PlayerController : MonoBehaviour
     public Rigidbody marineBody;
     private bool isDead = false;
 
+    private DeathParticles deathParticles;
+
     // Start is called before the first frame update
     void Start() {
         characterController = GetComponent<CharacterController>();
+        deathParticles = gameObject.GetComponentInChildren<DeathParticles>();
     }
 
     // Update is called once per frame
@@ -102,6 +105,7 @@ public class PlayerController : MonoBehaviour
 
     public void Die()
     {
+        deathParticles.Activate();
         bodyAnimator.SetBool("IsMoving", false);
         marineBody.transform.parent = null;
         marineBody.isKinematic = false;

@@ -35,7 +35,7 @@ public class Alien : MonoBehaviour
 
     public void Die()
     {
-        if (deathParticles)
+        if (deathParticles != null)
         {
             deathParticles.transform.parent = null;
             deathParticles.Activate();
@@ -79,6 +79,5 @@ public class Alien : MonoBehaviour
         }
         return deathParticles;
     }
-   
 
 }

@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     public float timeBetweenHits = 2.5f;
     private bool isHit = false;
     private float timeSinceHit = 0;
-    private int hitNumber = -1;
+    private int hitNumber = -3;
     public float[] hitForce;
 
     public Rigidbody marineBody;

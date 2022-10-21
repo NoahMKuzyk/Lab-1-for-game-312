@@ -800,7 +800,7 @@ MonoBehaviour:
   gun: {fileID: 1534194387}
   upgradeMaxTimeSpawn: 7.5
   deathFloor: {fileID: 54678621}
-  arenaAnimator: {fileID: 0}
+  arenaAnimator: {fileID: 1659395860}
 --- !u!4 &616086846
 Transform:
   m_ObjectHideFlags: 0
@@ -2170,6 +2170,12 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.65
   m_Center: {x: 0, y: 0.22, z: 0}
+--- !u!95 &1659395860 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 7f78b096b427d419f9918e4ae4fc4aec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1758815074}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1706760524
 PrefabInstance:
   m_ObjectHideFlags: 0
